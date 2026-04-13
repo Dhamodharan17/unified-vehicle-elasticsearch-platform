@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: unified-vehicle-elasticsearch-service
+  elasticsearch:
+    uris: http://localhost:9200
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+
+server:
+  port: 8080
